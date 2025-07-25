@@ -10,7 +10,7 @@ This project is based on the YouTube tutorial:
 ## Tech Stack
 
 - **Frontend**: React  
-- **Backend**: Node.js, Express.js  
+- **Backend**: Node.js, Express.js(V4.18.2)  
 - **Database**: MongoDB with Mongoose  
 - **Tools**: Git, GitHub, Postman
 
