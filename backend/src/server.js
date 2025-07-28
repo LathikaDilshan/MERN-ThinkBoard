@@ -1,9 +1,9 @@
 import express from 'express';
-import apiRoutes from './routes/apiRoutes.js';
+import notesRoutes from './routes/notesRoutes.js';
 
 const app = express();
 
-app.use("/api", apiRoutes);
+app.use("/api/notes", notesRoutes);
 
 
 app.listen(5000, () => {
