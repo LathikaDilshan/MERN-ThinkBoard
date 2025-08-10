@@ -1,8 +1,9 @@
+import cors from "cors"; 
+import dotenv from 'dotenv';
 import express from 'express';
+
 import notesRoutes from './routes/notesRoutes.js';
 import { connectDB } from './config/db.js';
-import dotenv from 'dotenv';
-import ratelimit from './config/upstash.js';
 import rateLimiter from './middleware/rateLimiter.js';
 
 dotenv.config();
@@ -12,10 +13,12 @@ const PORT = process.env.PORT || 5000;
 
 
 //middleware
+app.use(cors({
+    origin: "http://localhost:5175", // allow requests from frontend
+}))
 app.use(express.json()); // this middleware will parse JSON bodies: req.body
-
-
 app.use(rateLimiter)
+
 
 //somple custom middleware to log request details
 app.use((req, res, next) => {
