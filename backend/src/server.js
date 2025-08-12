@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 
 //middleware
 app.use(cors({
-    origin: "http://localhost:5175", // allow requests from frontend
+    origin: "http://localhost:5173", // allow requests from frontend
 }))
 app.use(express.json()); // this middleware will parse JSON bodies: req.body
 app.use(rateLimiter)
