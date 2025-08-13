@@ -33,8 +33,8 @@ To run this project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/mern-thinkboard.git
-2.create .env file inside backend
-3.includ the details mention below
+2. create .env file inside backend
+3. includ the details mention below
       - MONGO_URL = ***_{create a database in https://www.mongodb.com/ and provide it URL }
       - PORT = 5001
       - UPSTASH_REDIS_REST_URL =*** {create database in https://upstash.com/ for free and include provided REST_url}
@@ -43,4 +43,4 @@ To run this project locally:
 4. Run the command "npm run build" inside ../MERN-ThinkBoard>
 5. Run the command "npm run start" inside ../MERN-ThinkBoard/backend to run the backend>
 6. Run the command "npm run dev" inside ../MERN-ThinkBoard/frontend to run the backend>
-6.visit http://localhost:5173
+6. visit http://localhost:5173
