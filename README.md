@@ -1,11 +1,6 @@
 # MERN-ThinkBoard
 
-**MERN-ThinkBoard** is a full-stack note-taking web application built using the **MERN stack** (MongoDB, Express.js, React, and Node.js). This project was developed as part of my learning journey to master the MERN stack, following the tutorial by [freeCodeCamp.org](https://www.freecodecamp.org/).
-
-## Tutorial Reference
-
-This project is based on the YouTube tutorial:  
-[Learn the MERN Stack – Full Course](https://youtu.be/F9gB5b4jgOI?si=Mso288SHwy7-7i9t) by freeCodeCamp.org
+**MERN-ThinkBoard** is a full-stack note-taking web application built using the **MERN stack** (MongoDB, Express.js, React, and Node.js). This project was developed as part of my learning journey to master the MERN stack.
 
 ## Tech Stack
 
